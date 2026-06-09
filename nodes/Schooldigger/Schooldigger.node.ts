@@ -3,14 +3,14 @@ import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from '
 
 export class Schooldigger implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'schooldigger',
+		displayName: 'Schooldigger',
 		name: 'N8nDevSchooldigger',
 		icon: { light: 'file:./schooldigger.svg', dark: 'file:./schooldigger.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Get detailed data on over 120,000 schools and 18,500 districts in the U.S',
-		defaults: { name: 'schooldigger' },
+		defaults: { name: 'Schooldigger' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

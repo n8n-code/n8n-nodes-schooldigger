@@ -8,7 +8,7 @@ import type {
 export class SchooldiggerApi implements ICredentialType {
 	name = 'N8nDevSchooldiggerApi';
 
-	displayName = 'schooldigger API';
+	displayName = 'Schooldigger API';
 
 	icon: Icon = { light: 'file:../nodes/Schooldigger/schooldigger.svg', dark: 'file:../nodes/Schooldigger/schooldigger.dark.svg' };
 
@@ -22,7 +22,7 @@ export class SchooldiggerApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'https://api.example.com',
-			description: 'The base URL of your schooldigger API server',
+			description: 'The base URL of your Schooldigger API server',
 		},
 		{
 			displayName: 'API Key',
